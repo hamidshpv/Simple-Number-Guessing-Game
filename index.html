@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Number Guessing Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Guess the Number</h1>
+<p>I am thinking of a number between 0 and 100. Can you guess it?</p>
+
+<input type="text" id="playerGuessField" onkeydown="if(event.key === 'Enter') makeGuess()">
+<button id="guessButton" onclick="makeGuess()">Guess!</button>
+
+<p id="resultMessage"></p>
+
+<script src="script.js"></script>
+
+</body>
+</html>

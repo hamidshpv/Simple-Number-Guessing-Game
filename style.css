@@ -1,0 +1,35 @@
+/* base design */
+body {
+    background-color: silver;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 100px;
+}
+
+/* input field */
+input {
+    border: 3px solid black;
+    padding: 15px;
+    width: 200px;
+}
+
+/* button */
+button {
+    background-color: darkslategray;
+    color: white;
+    padding:15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* button hover effect */
+button:hover {
+    background-color: black;
+}
+
+/* feedback message */
+#resultMessage {
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+}
